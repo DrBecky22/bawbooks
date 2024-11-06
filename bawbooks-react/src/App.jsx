@@ -22,13 +22,15 @@ function App() {
       <h2>Great Stories are Medicine</h2>
       <Counter />
 
-      <div>
+      {/* <div>
         <BookForm />
-      </div>
+      </div> */}
 
       <div>
         <h2>Search Books By:</h2>
         <Button color="success">Author</Button>
+        <Button>Genre</Button>
+        <Button>SmutMeter</Button>
         <Button>Likes</Button>
         <Button>Awards</Button>
         <Button>See All</Button>
